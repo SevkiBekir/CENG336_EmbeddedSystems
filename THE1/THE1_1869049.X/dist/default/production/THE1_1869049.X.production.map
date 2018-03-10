@@ -1,0 +1,240 @@
+MPLINK 5.07, LINKER
+Linker Map File - Created Fri Mar  9 23:36:25 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                MAIN_PROG       code   0x000006    program   0x0003e6
+.config_300001_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300003    program   0x000001
+.config_300004_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300004    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/PRODUCTION/THE_1_1    romdata   0x30000d    program   0x000001
+               .udata_acs      udata   0x000000       data   0x000008
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0003eb      
+                            0x300001    0x300006      
+                            0x300008    0x30000d      
+            1016 out of 132120 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            CHANGE_CCW_CW   0x000398    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+     CHANGE_HEAD_POSITION   0x0003ae    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+             CORNER_CHECK   0x0000a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                    DELAY   0x000044    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                DELAY_CCW   0x000064    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 DELAY_CW   0x000084    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A0   0x0002b8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A1   0x000298    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A2   0x000278    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A3   0x000254    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_B3   0x000230    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_BO   0x00013a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_C3   0x00020c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_CO   0x00015e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D1   0x0001a8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D2   0x0001c8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D3   0x0001e8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_DO   0x000182    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     INIT   0x000114    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           INITIAL_LIGHTS   0x0000fe    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      INITIAL_START_SNAKE   0x000130    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               LIGHT_CONF   0x0000ee    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                MAIN_LOOP   0x00000e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+         ONE_STEP_FORWARD   0x0002dc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               RA4_BUTTON   0x0003c2    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               RB5_BUTTON   0x000386    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                    START   0x000006    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           TURN_OFF_LIGHT   0x0000e4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+            TURN_ON_LIGHT   0x0000d8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+          _CCW2CW_WithInc   0x0003ba    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A0   0x0002c4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A1   0x0002a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A2   0x000284    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A3   0x000260    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_B0   0x000146    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_B3   0x00023c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_C0   0x00016a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_C3   0x000218    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D0   0x00018e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D1   0x0001b4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D2   0x0001d4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D3   0x0001f4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+          _CW2CCW_WithDec   0x0003be    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A0   0x0002d0    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A1   0x0002ae    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A2   0x00028e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A3   0x00026c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_B0   0x000152    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_B3   0x000248    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_C0   0x000176    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_C3   0x000224    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D0   0x00019a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D1   0x0001be    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D2   0x0001de    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D3   0x000200    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _buttonLoop   0x000020    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _debounce   0x00038a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _doCCW   0x0003a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                    _doCW   0x0003a8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _doCorner   0x0000d2    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _doNextJob   0x0003dc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _jumpIt   0x000036    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 _jumpIt1   0x000034    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop1   0x000050    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop1_ccw   0x000070    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop1_cw   0x000090    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop2   0x00004c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop2_ccw   0x00006c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop2_cw   0x00008c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop3   0x000048    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop3_ccw   0x000068    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop3_cw   0x000088    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next1   0x0002ea    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next10   0x000368    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next11   0x000376    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next12   0x000384    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next2   0x0002f8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next3   0x000306    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next4   0x000314    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next5   0x000322    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next6   0x000330    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next7   0x00033e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next8   0x00034c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next9   0x00035a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck1   0x0000b0    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck2   0x0000bc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck3   0x0000c8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _notpress   0x0003cc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _press   0x0003d6    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     flag   0x000006       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+             headPosition   0x000003       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     isCW   0x000004       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 isCorner   0x000005       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           isPressedOnRB5   0x000007       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t1   0x000000       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t2   0x000001       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t3   0x000002       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000006    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                MAIN_LOOP   0x00000e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _buttonLoop   0x000020    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 _jumpIt1   0x000034    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _jumpIt   0x000036    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                    DELAY   0x000044    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop3   0x000048    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop2   0x00004c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _loop1   0x000050    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                DELAY_CCW   0x000064    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop3_ccw   0x000068    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop2_ccw   0x00006c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _loop1_ccw   0x000070    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 DELAY_CW   0x000084    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop3_cw   0x000088    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop2_cw   0x00008c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _loop1_cw   0x000090    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+             CORNER_CHECK   0x0000a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck1   0x0000b0    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck2   0x0000bc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+              _nextCheck3   0x0000c8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _doCorner   0x0000d2    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+            TURN_ON_LIGHT   0x0000d8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           TURN_OFF_LIGHT   0x0000e4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               LIGHT_CONF   0x0000ee    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           INITIAL_LIGHTS   0x0000fe    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     INIT   0x000114    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      INITIAL_START_SNAKE   0x000130    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_BO   0x00013a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_B0   0x000146    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_B0   0x000152    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_CO   0x00015e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_C0   0x00016a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_C0   0x000176    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_DO   0x000182    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D0   0x00018e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D0   0x00019a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D1   0x0001a8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D1   0x0001b4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D1   0x0001be    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D2   0x0001c8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D2   0x0001d4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D2   0x0001de    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_D3   0x0001e8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_D3   0x0001f4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_D3   0x000200    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_C3   0x00020c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_C3   0x000218    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_C3   0x000224    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_B3   0x000230    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_B3   0x00023c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_B3   0x000248    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A3   0x000254    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A3   0x000260    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A3   0x00026c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A2   0x000278    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A2   0x000284    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A2   0x00028e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A1   0x000298    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A1   0x0002a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A1   0x0002ae    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+      HEAD_OF_SNAKE_AT_A0   0x0002b8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _CCW_A0   0x0002c4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _CW_A0   0x0002d0    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+         ONE_STEP_FORWARD   0x0002dc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next1   0x0002ea    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next2   0x0002f8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next3   0x000306    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next4   0x000314    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next5   0x000322    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next6   0x000330    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next7   0x00033e    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next8   0x00034c    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _next9   0x00035a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next10   0x000368    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next11   0x000376    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                  _next12   0x000384    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               RB5_BUTTON   0x000386    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _debounce   0x00038a    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+            CHANGE_CCW_CW   0x000398    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _doCCW   0x0003a4    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                    _doCW   0x0003a8    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+     CHANGE_HEAD_POSITION   0x0003ae    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+          _CCW2CW_WithInc   0x0003ba    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+          _CW2CCW_WithDec   0x0003be    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               RA4_BUTTON   0x0003c2    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                _notpress   0x0003cc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                   _press   0x0003d6    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+               _doNextJob   0x0003dc    program     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t1   0x000000       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t2   0x000001       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                       t3   0x000002       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+             headPosition   0x000003       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     isCW   0x000004       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                 isCorner   0x000005       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+                     flag   0x000006       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+           isPressedOnRB5   0x000007       data     static /home/bs01/e1869049/MPLABXProjects/THE1_1869049.X/the_1_1869049.asm
+
+
